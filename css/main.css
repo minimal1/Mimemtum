@@ -1,0 +1,54 @@
+/** @format */
+.main {
+  margin: 0 auto;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main .main__clock {
+  font-size: 84px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.main__greetingForm,
+.main__greeting {
+  display: none;
+  margin-bottom: 30px;
+}
+.showing {
+  display: block;
+}
+.main__greetingForm input,
+.main__greeting {
+  font-size: 28px;
+}
+
+.main .main__todoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 28px;
+}
+.main__todoForm input {
+  margin-top: 10px;
+  width: 100%;
+  font-size: 28px;
+}
+input {
+  background: none;
+  border: none;
+  border-bottom: 2px solid #2f2f2f;
+  text-align: center;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}

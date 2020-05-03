@@ -1,0 +1,54 @@
+/** @format */
+
+.todoList {
+  /* width: 100%; */
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  margin: 0px auto;
+  bottom: 10px;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.todoList:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.todo {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+.todo button {
+  display: flex;
+  border: none;
+  background: none;
+  justify-content: flex-end;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.todo button:hover {
+  color: #e74c3c;
+}
+
+.todo button:active {
+  outline: none;
+}
+
+.todo + .todo {
+  margin-top: 10px;
+}

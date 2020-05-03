@@ -1,0 +1,38 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Mimemtum</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">Mimemtum</h1>
+      <div class="header__column">
+        <span class="header__weather"></span>
+        <span class="header__city"></span>
+      </div>
+    </header>
+    <main class="main">
+      <span class="main__clock js-clock">00:00:00</span>
+      <form class="main__greetingForm js-greetingForm">
+        <input type="text" placeholder="What's your name?" />
+      </form>
+      <h2 class="main__greeting js-greeting"></h2>
+      <form class="main__todoForm js-todoForm">
+        <span>What's your main focus for today?</span>
+        <input type="text" />
+      </form>
+    </main>
+    <ul class="todoList js-todoList"></ul>
+
+    <script src="./js/clock.js"></script>
+    <script src="./js/greeting.js"></script>
+    <script src="./js/todoList.js"></script>
+    <script src="./js/bg.js"></script>
+    <script src="./js/weather.js"></script>
+  </body>
+</html>
